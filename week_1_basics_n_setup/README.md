@@ -1,5 +1,7 @@
 # Week 1
 
+The goal of this week is to 
+
 
 ## Docker & Postgres
 

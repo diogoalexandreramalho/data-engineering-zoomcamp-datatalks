@@ -1,27 +1,21 @@
-# Data Engineering ZoomCamp
+# Week 6: Stream Processing
 
+The goal of this week is to...
 
-## About the project
+## Introduction to Apache Kafka
 
-## Tools
+### What is Kafka?
 
-* Google Cloud Project (GCP)
-* Docker
-* PostgreSQL
-* Terraform
+### Basic Kafka components
 
-## Final project
+### Kafka configurations
 
-## Progress
+## Kafka install and demo
 
-### Week 1 - Introduction & prerequisites
+## Avro and Schema Registry
 
-### Week 2 - Data ingestion
+## Kafka streams
 
-### Week 3 - Data warehouse
+## Kafka connect
 
-### Week 4 - Analytics engineering
-
-### Week 5 - Batch processing
-
-### Week 6 - Streaming
+## KSQL

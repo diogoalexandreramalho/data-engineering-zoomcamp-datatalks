@@ -1,27 +1,14 @@
-# Data Engineering ZoomCamp
+# Week 2: Data Ingestion
+The goal of this week is to
 
+## Data Lake (GCS)
 
-## About the project
+## Introduction to Workflow orchestration
 
-## Tools
+## Setting up Airflow locally
 
-* Google Cloud Project (GCP)
-* Docker
-* PostgreSQL
-* Terraform
+## Ingesting data to GCP with Airflow
 
-## Final project
+## Ingesting data to Local Postgres with Airflow
 
-## Progress
-
-### Week 1 - Introduction & prerequisites
-
-### Week 2 - Data ingestion
-
-### Week 3 - Data warehouse
-
-### Week 4 - Analytics engineering
-
-### Week 5 - Batch processing
-
-### Week 6 - Streaming
+## Transfer service (AWS -> GCP)

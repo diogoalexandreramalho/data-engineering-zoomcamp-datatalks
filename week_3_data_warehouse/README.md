@@ -1,27 +1,33 @@
-# Data Engineering ZoomCamp
+# Week 3: Data Warehouse
+The goal of this week is to
 
+## OLTP vs. OLAP
 
-## About the project
+## Data Warehouse
 
-## Tools
+## BigQuery
 
-* Google Cloud Project (GCP)
-* Docker
-* PostgreSQL
-* Terraform
+### Partitions
 
-## Final project
+### Clustering
 
-## Progress
+### Partitions
 
-### Week 1 - Introduction & prerequisites
+### Partitioning vs Clustering
 
-### Week 2 - Data ingestion
+### Best Practices
 
-### Week 3 - Data warehouse
+### Internals
 
-### Week 4 - Analytics engineering
+## Machine Learning with BigQuery
 
-### Week 5 - Batch processing
+### Introduction to BiqQuery ML
 
-### Week 6 - Streaming
+### BigQuery ML deployment
+
+## Integrating BigQuery with Airflow
+
+### Airflow setup
+
+### Creating a Cloud Storage to BigQuery DAG
+

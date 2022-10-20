@@ -1,25 +1,27 @@
-
-# Docker & Postgres
-
-## Introduction to Docker
-
-## Ingesting NY Taxi Data to Postgres
-
-## Connecting pgAdmin and Postgres
-
-## Putting the ingestion script into Docker
-
-## Running Postgres and pgAdmin with Docker-Compose
-
-## SQL refresher
+# Week 1
 
 
-# Google Cloud Platform (GCP) & Terraform
+## Docker & Postgres
 
-## Introduction to GCP
+### Introduction to Docker
 
-## Introduction to Terraform Concepts & GCP Pre-Requisites
+### Ingesting NY Taxi Data to Postgres
 
-## Workshop: Creating GCP Infrastructure with Terraform
+### Connecting pgAdmin and Postgres
 
-## Configuring terraform and GCP SDK on Windows
+### Putting the ingestion script into Docker
+
+### Running Postgres and pgAdmin with Docker-Compose
+
+### SQL refresher
+
+
+## Google Cloud Platform (GCP) & Terraform
+
+### Introduction to GCP
+
+### Introduction to Terraform Concepts & GCP Pre-Requisites
+
+### Workshop: Creating GCP Infrastructure with Terraform
+
+### Configuring terraform and GCP SDK on Windows

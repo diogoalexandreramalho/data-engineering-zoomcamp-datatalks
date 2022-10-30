@@ -637,4 +637,4 @@ If you're having issues with Docker and networking (especially if you already ha
 
 # Credits
 
-These notes were mainly copied from [](https://github.com/ziritrion/dataeng-zoomcamp/blob/main/notes/1_intro.md)
+These notes were mainly copied from [Alvaro Navas notes](https://github.com/ziritrion/dataeng-zoomcamp/blob/main/notes/1_intro.md)

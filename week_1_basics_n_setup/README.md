@@ -1,6 +1,12 @@
 # Week 1
 
-The goal of this week is to 
+The goals of this week are:
+* define the architecture of the project we will be working on
+* learn about Docker, Postgres, GCP and Terraform
+* build a Docker container that runs a Python ingestion script
+* review SQL
+* create GCP account and project
+
 
 
 ## Introduction to Data Engineering
@@ -32,9 +38,9 @@ A data pipeline is a service that receives data as input and outputs more data. 
 
 ### Docker basics
 
-Docker is a containerization software that allows to isolate software in a similar way to virtual machines but leaner.
+Docker is a containerization software that allows to isolate software in a similar way to virtual machines.
 
-A Docker image is a snapshot of a container that we can define to run our software, or in this case our data pipelines. By exporting our Docker images to Cloud providers such as Amazon Web Services (AWS) or Google Cloud Platform (GCP) we can run our containers there.
+A **Docker image** is a snapshot of a container that we can define to run our software, or in this case our data pipelines. It has the instructions needed to setup the environment. By exporting our Docker images to Cloud providers such as Amazon Web Services (AWS) or Google Cloud Platform (GCP) we can run our containers there.
 
 Docker provides the following advantages:
 * Reproducibility
@@ -109,8 +115,6 @@ You should get the same output you did when you ran the pipeline script by itsel
 >Note: these instructions asume that `pipeline.py` and `Dockerfile` are in the same directory. The Docker commands should also be run from the same directory as these files.
 
 ## Running Postgres in a container
-
-_([Video source](https://www.youtube.com/watch?v=2JM-ziJt0WI&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb&index=4))_
 
 In later parts of the course we will use Airflow, which uses PostgreSQL internally. For simpler tests we can use PostgreSQL (or just Postgres) directly.
 
@@ -380,6 +384,8 @@ docker-compose up -d
 ```
 
 If you want to re-run the dockerized ingest script when you run Postgres and pgAdmin with `docker-compose`, you will have to find the name of the virtual network that Docker compose created for the containers. You can use the command `docker network ls` to find it and then change the `docker run` command for the dockerized script to include the network name.
+
+## SQL reviews
 
 SQL commands can be categorized into the following categories:
 * ***DDL***: Data Definition Language.

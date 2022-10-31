@@ -34,3 +34,15 @@ LIMIT 1
 -- (calculated based on total_amount)? Enter two zone names separated by a slash. 
 -- For example:"Jamaica Bay / Clinton East". If any of the zone names are unknown (missing), 
 -- write "Unknown". For example, "Unknown / Clinton East".
+
+SELECT CONCAT(
+			CASE WHEN pul."Zone" IS NULL THEN 'Unknown' ELSE pul."Zone" END,
+	    	' / ', 
+			CASE WHEN dol."Zone" IS NULL THEN 'Unknown' ELSE dol."Zone" END), 
+			AVG(total_amount)
+FROM yellow_taxi_trips
+JOIN zones pul ON yellow_taxi_trips."PULocationID" = pul."LocationID"
+JOIN zones dol ON yellow_taxi_trips."DOLocationID" = dol."LocationID"
+GROUP BY pul."Zone", dol."Zone"
+ORDER BY 2 DESC
+LIMIT 1
